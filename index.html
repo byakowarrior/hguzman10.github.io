@@ -2,10 +2,21 @@
   <head>
     <title>Home</title>
     <link rel="stylesheet" href="estilos/pepito.css">
+    <link rel="stylesheet" href="estilos/bootstrap.css">
+
   </head>
   <body>
-    <h1>Hola mundo</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi qui ad molestiae recusandae sunt, iusto aspernatur provident quibusdam officiis aperiam nesciunt, delectus deserunt ex laborum voluptatum laudantium in. Obcaecati, animi?</p>
-    <img src="imagenes/fondo2.jpg">
+    <form action="guardar.php" method="post">
+      <div class="form-group">
+        <label>Cedula</label>
+        <input type="text" name="ced" value="" class="form-control" placeholder="Escriba cedula">
+      </div>
+      <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" name="nom" value="" class="form-control">
+      </div>
+      <input type="submit" name="" value="enviar" class="btn btn-default">
+    </form>
+
   </body>
 </html>
